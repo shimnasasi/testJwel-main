@@ -1,0 +1,40 @@
+.main-product {
+  width: 100%;
+  height: 1300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  gap: 50px;
+}
+.submain {
+  display: flex;
+}
+.submain div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 374px;
+  height: 290px;
+}
+.submain div img {
+
+  box-shadow: 2px 2px 2px grey;
+  width: 320px;
+  height: 280px;
+  border-radius: 5px;
+}
+.main-product button {
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border: 1px solid;
+  padding: 15px 45px;
+  margin-top: 30px;
+}
+.main-product button:hover {
+  background-color: black;
+  color: white;
+}
+
